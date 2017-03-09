@@ -51,6 +51,6 @@ QUnit.test('QUnit tests for Truck', function(assert) {
     currentOrder = [{
         'emailAddress': 'me@goldfinger.com',
         'coffee': 'double mocha'
-    }, ];
+    }];
     assert.deepEqual(myTruck.printOrders(), currentOrder, 'Passed!');
 });
